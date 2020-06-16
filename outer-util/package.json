@@ -1,5 +1,5 @@
 {
-    "name": "outer-util",
+    "name": "@netkvn/outer-util",
     "version": "0.0.8",
     "description": "utilities generic and more types",
     "main": "lib/outer-util.js",

@@ -1,5 +1,5 @@
 {
-    "name": "outer-modules",
+    "name": "@netkvn/outer-modules",
     "version": "0.0.8",
     "description": "extend modules",
     "main": "lib/outer-modules.js",

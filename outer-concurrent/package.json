@@ -1,5 +1,5 @@
 {
-    "name": "outer-concurrent",
+    "name": "@netkvn/outer-concurrent",
     "version": "0.0.8",
     "description": "utilities concurrent",
     "main": "lib/outer-concurrent.js",

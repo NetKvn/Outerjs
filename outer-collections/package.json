@@ -1,5 +1,5 @@
 {
-    "name": "outer-collections",
+    "name": "@netkvn/outer-collections",
     "version": "0.0.8",
     "description": "utilities collections",
     "main": "lib/outer-collections.js",

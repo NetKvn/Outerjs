@@ -1,5 +1,5 @@
 {
-  "name": "outer-core",
+  "name": "@netkvn/outer-core",
   "version": "0.0.8",
   "description": "core extensions and prototypes",
   "main": "lib/outer-core.js",
