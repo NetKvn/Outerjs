@@ -1,0 +1,27 @@
+{
+  "name": "outer-core",
+  "version": "0.0.8",
+  "description": "core extensions and prototypes",
+  "main": "lib/outer-core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NetKvn/Outerjs.git"
+  },
+  "keywords": [
+    "core",
+    "utilities",
+    "prototypes",
+    "context",
+    "events",
+    "services"
+  ],
+  "author": "NetKvn <netkvn-community.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NetKvn/Outerjs/issues"
+  },
+  "homepage": "https://github.com/NetKvn/Outerjs#readme"
+}

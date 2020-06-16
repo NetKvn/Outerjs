@@ -1,0 +1,25 @@
+{
+    "name": "outer-collections",
+    "version": "0.0.8",
+    "description": "utilities collections",
+    "main": "lib/outer-collections.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NetKvn/Outerjs.git"
+    },
+    "keywords": [
+      "inmutable",
+      "list",
+      "queue",
+      "map"
+    ],
+    "author": "NetKvn <netkvn-community.org>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/NetKvn/Outerjs/issues"
+    },
+    "homepage": "https://github.com/NetKvn/Outerjs#readme"
+}

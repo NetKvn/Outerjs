@@ -1,0 +1,23 @@
+{
+    "name": "outer-util",
+    "version": "0.0.8",
+    "description": "utilities generic and more types",
+    "main": "lib/outer-util.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NetKvn/Outerjs.git"
+    },
+    "keywords": [
+      "util",
+      "types"
+    ],
+    "author": "NetKvn <netkvn-community.org>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/NetKvn/Outerjs/issues"
+    },
+    "homepage": "https://github.com/NetKvn/Outerjs#readme"
+}
