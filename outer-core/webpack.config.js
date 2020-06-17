@@ -3,6 +3,7 @@
 const path = require('path');
 
 module.exports = {
+    mode: 'production',
     entry: './src/main.js',
     context: path.resolve(__dirname),
     output: {
