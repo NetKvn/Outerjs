@@ -2,10 +2,10 @@
   "name": "@netkvn/outer-core",
   "version": "0.0.8",
   "description": "core extensions and prototypes",
-  "main": "lib/outer-core.js",
+  "main": "lib/outer-core.min.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ./test"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,8 @@
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
     "babel-loader": "^8.1.0",
+    "jest": "^26.0.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   }
