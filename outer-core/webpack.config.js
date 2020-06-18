@@ -1,6 +1,7 @@
 'use strict';
 
 const path = require('path');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
     mode: 'production',
@@ -8,7 +9,7 @@ module.exports = {
     context: path.resolve(__dirname),
     output: {
         path: path.resolve(__dirname, 'lib'),
-        filename: 'outer-core.js',
+        filename: 'outer-core.min.js',
     },
     module: {
         rules: [
@@ -21,5 +22,8 @@ module.exports = {
     },
     resolve: {
         extensions: ['*', '.js']
+    },
+    optimization: {
+        minimizer: [new UglifyJsPlugin()]
     }
 };
