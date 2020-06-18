@@ -25,7 +25,7 @@ class Services {
         return this.Containers.get(name);
     }
 
-    getServices(names = []) {
+    getServices(...names) {
         var temp_services = {};
         this.Containers.forEach((container, key) => {
             if(names.some( (name) => name === key) )
@@ -66,7 +66,7 @@ export default {
         var callback = events.getListener(name);
         if(callback) {
             if(nameServices.length !== 0)
-                callback(services.getServices(nameServices), properties);
+                callback(services.getServices(...nameServices), properties);
             else
                 callback(properties);
         }
