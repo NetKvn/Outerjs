@@ -1,6 +1,6 @@
 'use strict';
 
-require('../../lib/outer-core.min.js');
+require('../../../lib/outer-core.min.js');
 
 describe("AppContext Functions", () => {
 
