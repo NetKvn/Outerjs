@@ -2,7 +2,7 @@
   "name": "@netkvn/outer-core",
   "version": "0.0.8",
   "description": "core extensions and prototypes",
-  "main": "lib/outer-core.min.js",
+  "main": "lib/main.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "test": "jest ./test"
