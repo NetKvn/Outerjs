@@ -1,4 +1,4 @@
-const UriFormat = {
+const UriParameterFormat = {
     GET: "Get",
     JSON: "Json",
     getValues() {
@@ -15,4 +15,4 @@ const UriFormat = {
     }
 };
 
-export default UriFormat;
+export default UriParameterFormat;

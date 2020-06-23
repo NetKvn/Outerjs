@@ -21,13 +21,13 @@ import isUndefined from './functions/isUndefined';
 /**
  * 
  */
-import AppContext from './types/appContext';
-import DateTime from './types/dateTime';
-import StringBuilder from './types/stringBuilder';
-import StringTokenizer from './types/stringTokenizer';
+import AppContext from './appContext';
+import DateTime from './dateTime';
+import StringBuilder from './stringBuilder';
+import StringTokenizer from './stringTokenizer';
 import UriFormat from './types/uriFormat';
-import UriBuilder from './types/uriBuilder';
-import UUID from './types/UUID';
+import UriBuilder from './uriBuilder';
+import UUID from './UUID';
 
 /**
  * 
