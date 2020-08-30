@@ -4,7 +4,8 @@
   "description": "core extensions and prototypes",
   "main": "lib/main.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
+    "build:browser": "webpack --config webpack.config.js",
+    "build:server": "babel src -d lib",
     "test": "jest ./test"
   },
   "repository": {
@@ -26,7 +27,8 @@
   },
   "homepage": "https://github.com/NetKvn/Outerjs#readme",
   "devDependencies": {
-    "@babel/core": "^7.10.2",
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
     "babel-loader": "^8.1.0",

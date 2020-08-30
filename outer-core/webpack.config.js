@@ -2,13 +2,12 @@
 
 const path = require('path');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-
 module.exports = {
     mode: 'production',
     entry: './src/main.js',
     context: path.resolve(__dirname),
     output: {
-        path: path.resolve(__dirname, 'lib'),
+        path: path.resolve(__dirname, 'dist'),
         filename: 'outer-core.min.js',
     },
     module: {
