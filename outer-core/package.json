@@ -38,6 +38,6 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "underscore": "^1.10.2"
+    "lodash": "^4.17.20"
   }
 }
