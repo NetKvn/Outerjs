@@ -17,7 +17,7 @@ export default class StringBuilder {
         return this;
     }
     reverse() {
-        return this.arraySequence = this.arraySequence.reverse();
+        this.arraySequence = this.arraySequence.reverse();
         return this;
     }
     clear() {
