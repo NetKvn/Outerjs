@@ -2,7 +2,7 @@
 
 require('../../../lib/main.js');
 
-describe("AppContext Functions", () => {
+describe("AppContext Class", () => {
 
     test("it should be a global module", () => {
         expect(typeof(AppContext)).toBe("object");
